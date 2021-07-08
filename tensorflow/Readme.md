@@ -10,8 +10,13 @@
       conda create --name tf2 python=3.8
       conda install -c conda-forge tensorflow-gpu=2.3 cudatoolkit=11.0
       
-      conda install numpy matplotlib scikit-learn pandas tqdm scikit-image
       conda install -c conda-forge tensorboardx
+      conda install -c conda-forge matplotlib
+      conda install -c conda-forge scikit-learn
+      conda install -c conda-forge scikit-image
+      conda install -c conda-forge numpy=1.19
+      conda install -c conda-forge pandas
+      conda install -c conda-forge tqdm
       conda install -c conda-forge opencv
       conda install -c conda-forge scipy=1.5.3
       conda install -c conda-forge notebook
